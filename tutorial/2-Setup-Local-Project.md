@@ -57,11 +57,11 @@ cookiecutter https://github.com/AutoResearch/autora-user-cookiecutter
 ```
 
 - Advanced features -> yes
-- choose one or more theorists
-- choose one or more experimentalists
+- choose no theorist
+- !!! choose at least autora[experimentalist-bandit-random]
 - !!! Install autora[experiment-runner-firebase-prolific]
 - !!! Set up a Firebase Experiment -> yes
-- Type of Project -> SweetBean
+- Type of Project -> Blank
 
 ***
 Next: [3-Setup-Firebase](./3-Setup-Firebase.md)
