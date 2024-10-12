@@ -21,7 +21,6 @@ In the `<project directory>`, run the following command to create a new virtual 
 ```shell
 python3 -m "venv" ".venv" 
 ```
-![venv.png](img/venv.png)
 
 !!! hint
     If you have multiple Python versions installed on your system, it may be necessary to specify the Python version when creating a virtual environment. For example, run the following command to specify Python 3.8 for the virtual environment. 
@@ -32,6 +31,7 @@ python3 -m "venv" ".venv"
 Activate it by running
 ```shell
 source ".venv/bin/activate"
+```
 
 ## Installation
 
