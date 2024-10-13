@@ -56,8 +56,14 @@ Once you've confirmed your installation, you can create the project by running
 cookiecutter https://github.com/AutoResearch/autora-user-cookiecutter
 ```
 
+if cookecutter is not recognized, you may need to run the following command:
+
+```shell
+python -m cookiecutterhttps://github.com/AutoResearch/autora-user-cookiecutter
+```
+
 - Advanced features -> yes
-- choose no theorist
+- We are going to use a theorist from a different package, so we don't need to select any theorist here
 - !!! choose at least autora[experimentalist-bandit-random]
 - !!! Install autora[experiment-runner-firebase-prolific]
 - !!! Set up a Firebase Experiment -> yes
