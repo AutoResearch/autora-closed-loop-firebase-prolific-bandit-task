@@ -2,9 +2,7 @@
 
 After setting up a mechanism to deploy your experiments online, you can now connect the AutoRA workflow to Firestore database. This will allow us to update experiment conditions and to download observations collected from the experiment.
 
-![Setup](../img/system_researcherhub.png)
-
-The workflow will manage the entire research process, from generating novel experiments to collecting data and modeling the results. 
+The workflow will manage the entire research process, from generating novel experiment conditions to collecting data and modeling the results. 
 
 Note that the workflow will talk to the Firebase project by uploading and downloading data to the Firestore database. We will upload new experiment conditions to the database and download the results of the experiment from it. 
 
@@ -63,7 +61,5 @@ This will be the experiment as participants will see it. You can test it and che
 
 To check the database, go to the Firebase console and select your project. On the left menu, navigate to ``Firestore Database``. If everything worked, you should see database fields called ``autora_in`` and ``autora_out``. The former contains the experiment conditions which are used to configure the experiment. The latter will contain the results of the experiment.
 
-![firestore_data.png](../img/firestore_data.png)
-
-[next](6-What-now.md)
+[next](6-Customization.md)
 
