@@ -1,23 +1,13 @@
-# Trial Sequence: SweetPea
+# Customization
 
-SweetPea is a domain-specific programming language built for the declarative specification of randomized experimental designs and the synthesis of trial sequences generated from those design specifications.
+The code you have created can serve as a template for future projects. The most important files are:
 
-Here, we are going to use it to generate a counterbalanced sequence of S1 and S2 for a Weber-Fechner Experiment
+(1) Autora Workflow: `research_hub/autora_workflow.py`
+Here, you can customize the AutoRA workflow. Which includes:
+- Using other `experimentalists` to change the selection of experiment-conditions.
+- Adjusting runners: In this example, we use `jsPsych` and `javascript` for the experiments, but depending on the experiment, you can interface with other devices or use other means to collect data.
+- Using other theorists. The theorist that is used in the example is custom build for RL tasks. Depending on your experiment, you will use other theorists.
 
-## Installation
-
-First install sweerpea:
-```shell
-pip install sweetpea
-```
-
-Head over to the [colab tutorial](https://colab.research.google.com/drive/1tYlXhedYp320IVYf96ae5yoG7EZJvkAu?usp=sharing).
-Create a script `trial_sequence.py` in the research_hub and create a function there, that generates a trial_sequence
-
-***
-Next: [7-SweetBean](./7-SweetBean.md)
-***
-
-**Navigate Through the Tutorial**:
-- Use the navigation buttons in the preview pane to move through the tutorial steps.
-- After pressing on links to navigate, click on the left editor window to refocus.
+(2) Website: `testng_zone/src/design/main.js`
+Here, you can customzie the website that is shown to the participant. You can find good tutorials on how to build `jsPsych` experiments on their [website](https://www.jspsych.org/v7/)
+Keep in mind, that you should build your website in a way that the conditions are used to customize the experiment. A good way to do so is by creating trial-sequences in `autora_workflow.py` and using them as [timeline_variables](https://www.jspsych.org/v7/tutorials/rt-task/#part-7-parameters-for-timelines-with-timeline-variables).
