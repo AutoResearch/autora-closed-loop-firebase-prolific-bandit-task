@@ -54,6 +54,10 @@ npm install @jspsych/plugin-html-keyboard-response
 ```
 
 ```shell
+npm install @jspsych-contrib/plugin-rdk
+```
+
+```shell
 npm install @jspsych-contrib/plugin-html-choice
 ```
 
