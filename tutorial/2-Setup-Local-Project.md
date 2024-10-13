@@ -67,7 +67,7 @@ python -m cookiecutterhttps://github.com/AutoResearch/autora-user-cookiecutter
 - !!! choose at least autora[experimentalist-bandit-random]
 - !!! Install autora[experiment-runner-firebase-prolific]
 - !!! Set up a Firebase Experiment -> yes
-- Type of Project -> Blank
+- Type of Project -> JsPsych - Bandit
 
 ***
 Next: [3-Setup-Firebase](./3-Setup-Firebase.md)
