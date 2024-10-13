@@ -47,10 +47,20 @@ Next, we install jspsych (in the testing_zone):
 ```shell
 npm install jspsych@7.3.1
 ```
-and minimal package:
+and the package that we'll use for the experiment:
+
 ```shell
 npm install @jspsych/plugin-html-keyboard-response
 ```
+
+```shell
+npm install @jspsych-contrib/plugin-html-choice
+```
+
+```shell
+npm install @jspsych/plugin-fullscreen
+```
+
 
 
 ## Build And Deploy To Firebase 
